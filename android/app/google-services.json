@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "182205294301",
+    "firebase_url": "https://homecook-e81a8.firebaseio.com",
+    "project_id": "homecook-e81a8",
+    "storage_bucket": "homecook-e81a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182205294301:android:794664597a49a94f059d34",
+        "android_client_info": {
+          "package_name": "com.qc4application.homecook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182205294301-lh2cuupkcg49iuvsaflm7d4cfge5apmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qc4application.homecook",
+            "certificate_hash": "9fe67663f7618298658634a1fde5264d38cb9aed"
+          }
+        },
+        {
+          "client_id": "182205294301-keve584ekmq53mh5pjr7k7bgeo7al5j5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qc4application.homecook",
+            "certificate_hash": "f11ecf190af33e5e9d02632c2d7ade9bc54cbc58"
+          }
+        },
+        {
+          "client_id": "182205294301-7tv170dct75fgodo6u1hmlg38th2dbse.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qc4application.homecook",
+            "certificate_hash": "cbcb07bc2e373c2582990d0b4349ce24d501d606"
+          }
+        },
+        {
+          "client_id": "182205294301-jebvemc13r3kfgplhdi04c88sbbcm9jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV97NF1DGrH6fltI6N6PzP9JjBRoNhqI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182205294301-jebvemc13r3kfgplhdi04c88sbbcm9jf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

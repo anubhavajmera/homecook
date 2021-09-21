@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.qc4application.homecook">
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+  <application android:name="io.flutter.app.FlutterApplication" android:label="homecook" android:icon="@mipmap/launcher_icon">
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDQ00Eji5pP-4CRaPJL6hm5d0Qm7MGy5Qg"></meta-data>
+    <meta-data
+      android:name="com.google.firebase.messaging.default_notification_color"
+      android:resource="@color/colorPrimary" />
+    <meta-data
+       android:name="com.google.firebase.messaging.default_notification_icon"
+       android:resource="@drawable/notification_icon" />
+
+    <activity android:name=".MainActivity" android:launchMode="singleTop" android:theme="@style/LaunchTheme" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:hardwareAccelerated="true" android:windowSoftInputMode="adjustResize">
+      <meta-data android:name="io.flutter.embedding.android.NormalTheme" android:resource="@style/NormalTheme" />
+      <meta-data android:name="io.flutter.embedding.android.SplashScreenDrawable" android:resource="@drawable/launch_background" />
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+      <intent-filter>    
+        <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+        <category android:name="android.intent.category.DEFAULT" />
+      </intent-filter>
+    </activity>
+    <meta-data android:name="flutterEmbedding" android:value="2" />
+  </application>
+</manifest>
